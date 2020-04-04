@@ -61,3 +61,23 @@ main {
 .flow:last-child {
  margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+ main {
+  width: 90%;
+ }
+
+ .flow {
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  }
+
+ .flow:last-child {
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+ }
+}
